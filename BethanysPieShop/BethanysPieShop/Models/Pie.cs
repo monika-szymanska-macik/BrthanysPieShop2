@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BethanysPieShop.Nowy_folder
+namespace BethanysPieShop.Models
 {
     public class Pie
     {
@@ -18,6 +18,5 @@ namespace BethanysPieShop.Nowy_folder
         public bool InStock { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; }
-
     }
 }
